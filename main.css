@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+    font-family: "Roboto", serif;
+}
+body{
+    width: auto;
+    height: auto;
+    padding: 0.7rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: linear-gradient(to right,white,rgb(88, 88, 229),white);
+}
+.main-parent-container{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 4rem;
+}
+.top-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.right-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.right-container a{
+    text-decoration: none;
+    width: fit-content;
+    color: white;
+    background-color: darkblue;
+    border-radius: 3rem;
+    padding: 0.5rem;
+}
+.bottom-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+.button-container{
+    width: fit-content;
+    background: linear-gradient(to right,white,red, yellow);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+.button-container a{
+    text-decoration: none;
+    color: black;  
+}

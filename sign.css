@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+    font-family: "Roboto", serif;
+}
+body{
+    width: auto;
+    height: auto;
+    padding: 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,pink, red, yellow,rgb(94, 225, 54));
+}
+.main-conatiner{
+    width: 50%;
+    height: auto;
+    background: linear-gradient(to right,rgb(204, 204, 121), rgb(170, 110, 170), rgb(102, 102, 184), rgb(148, 148, 215));
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    border-radius: 2rem;
+    border: 3px solid rgb(117, 116, 116);
+}
+.inputs{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+}
+.input-five{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+}
+.input-six{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7rem;
+}
+.back{
+    width: fit-content;
+    height: auto;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
