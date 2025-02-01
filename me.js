@@ -76,22 +76,22 @@ button.addEventListener(`click` ,function(){
 
 
 mine.addEventListener(`click`,function(){
-    firstHexCode.textContent = "hex code"
-    firstColorBox.style.backgroundColor = "#c4c4c4"
+    firstHexCode.textContent = "color code"
+    firstColorBox.style.backgroundColor = "#d7d7d7"
 
-    secondHexCode.textContent = "hex code"
+    secondHexCode.textContent = "color code"
     secondColorBox.style.backgroundColor = "#c4c4c4"
 
-    thirdHexCode.textContent = "hex code"
-    thirdColorBox.style.backgroundColor = "#c4c4c4"
+    thirdHexCode.textContent = "color code"
+    thirdColorBox.style.backgroundColor = "#d7d7d7"
 
-    fourthHexCode.textContent = "hex code"
+    fourthHexCode.textContent = "color code"
     fourthColorBox.style.backgroundColor = "#c4c4c4"
 
-    fifthHexCode.textContent = "hex code"
-    fifthColorBox.style.backgroundColor = "#c4c4c4"
+    fifthHexCode.textContent = "color code"
+    fifthColorBox.style.backgroundColor = "#d7d7d7"
 
-    sixthHexCode.textContent = "hex code"
+    sixthHexCode.textContent = "color code"
     sixthColorBox.style.backgroundColor = "#c4c4c4"
    
 })
